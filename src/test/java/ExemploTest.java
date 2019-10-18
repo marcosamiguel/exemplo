@@ -44,7 +44,7 @@ public class ExemploTest {
     
     @Test
     public void hello2() {
-        assertEquals(false, Main.validar());
+        assertEquals(true, Main.validar());
     }
     
     
