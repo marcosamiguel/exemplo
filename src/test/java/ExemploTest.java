@@ -39,7 +39,7 @@ public class ExemploTest {
 
     @Test
     public void hello() {
-        assertEquals(false, Main.validar());
+        assertEquals(true, Main.validar());
     }
     
     @Test
