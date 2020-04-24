@@ -46,6 +46,4 @@ public class ExemploTest {
     public void hello2() {
         assertEquals(true, Main.validar());
     }
-    
-    
 }
