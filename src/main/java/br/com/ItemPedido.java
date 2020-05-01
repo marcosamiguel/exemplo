@@ -23,6 +23,8 @@ public class ItemPedido {
     }
 
     public void setPedido(Pedido pedido) {
+        Projeto p = new Projeto();
+        
         this.pedido = pedido;
     }
 
