@@ -50,6 +50,6 @@ public class ExemploTest {
     
     @Test
     public void teste3() {
-        assertEquals(false, Main.validar());
+        assertEquals(true, Main.validar());
     }
 }
