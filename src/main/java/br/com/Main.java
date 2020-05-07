@@ -1,6 +1,5 @@
 package br.com;
 
-import java.math.BigDecimal;
 import java.util.Date;
 
 public class Main {
@@ -190,4 +189,66 @@ public class Main {
     public static boolean validar() {
         return true;
     }
+    
+    public static boolean testar(){
+        ClientePessoaFisica pf = new ClientePessoaFisica();
+        pf.setCpf("03175333333");
+        pf.setId(0);
+        pf.setNome("a");
+
+        Pedido p = new Pedido();
+        p.setId(10);
+        p.setData(new Date());
+        p.setCliente(pf);
+
+        System.out.println(p);
+        
+        if (null == pf){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    public static boolean testar2(){
+        ClientePessoaFisica pf = new ClientePessoaFisica();
+        pf.setCpf("03175333333");
+        pf.setId(0);
+        pf.setNome("a");
+
+        Pedido p = new Pedido();
+        p.setId(10);
+        p.setData(new Date());
+        p.setCliente(pf);
+
+        System.out.println(p);
+        
+        if (null == pf){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    
+    public static boolean testar3(){
+        ClientePessoaFisica pf = new ClientePessoaFisica();
+        pf.setCpf("03175333333");
+        pf.setId(0);
+        pf.setNome("a");
+
+        Pedido p = new Pedido();
+        p.setId(10);
+        p.setData(new Date());
+        p.setCliente(pf);
+
+        System.out.println(p);
+        
+        if (null == pf){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
 }
