@@ -5,7 +5,10 @@ import java.util.Date;
 public class Main {
 
     public static void main(final String[] arg) {
-
+        
+    }
+    
+    public static boolean testarCriacoes(){
         Peca prod1 = new Peca();
         prod1.setId(1);
         prod1.setDescricao("Sabao em pó");
@@ -165,7 +168,8 @@ public class Main {
         for (Peca i : memoria.getCompostos()) {
             System.out.println("tem como composto essa peça :" + i.getDescricao());
         }
-       
+        
+        return true;
     }
 
     public static boolean validar() {

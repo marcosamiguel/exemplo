@@ -38,19 +38,18 @@ public class ExemploTest {
     }
 
     @Test
-    public void hello() {
+    public void validar() {
         assertEquals(true, Main.validar());
     }
     
     @Test
-    public void hello2() {
-        assertEquals(true, Main.validar());
+    public void testar() {
+        assertEquals(true, Main.testar());
     }
     
     
     @Test
-    public void teste3() {
-        
-        assertEquals(true, Main.validar());
+    public void main() {
+        assertEquals(true, Main.testarCriacoes());
     }
 }
