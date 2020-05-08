@@ -21,16 +21,6 @@ public class Main {
         px.criar(prod2, 200);
         
         px.destruir(prod2);
-     
-        
-        
-        //px.getItens().add(ip1);
-        //px.adicionar(ip1);
-        //ip1.setPedido(px);
-        //px.getItens().get(0);
-        //px.getItens().set(0, ip1);
-        
-        
         
         Tecnico t1 = new Tecnico();
         t1.setNome("a");
@@ -107,20 +97,12 @@ public class Main {
 
         t1.addFilho(f1);
 
-        //   u3.getComputador().getModelo();
-        //   u3.getProjeto().getVerba();
         System.err.println(c1.getUsos().get(0).getTecnico().getFilhos());
 
         for (Filho f : c1.getUsos().get(0).getTecnico().getFilhos()) {
             System.out.println(f);
         }
 
-        //  for (Uso x : c2.getUsos()){
-        //      System.out.println(x.getTecnico().getFilhos());
-        //  }
-        // c1.getUsos().get(1).getTecnico();
-        //  System.err.println(c1.getUsos().size());
-        //System.out.println("Oi");
         ClientePessoaFisica pf = new ClientePessoaFisica();
         pf.setCpf("03175333333");
         pf.setId(0);
@@ -202,53 +184,7 @@ public class Main {
         p.setCliente(pf);
 
         System.out.println(p);
-        
-        if (null == pf){
-            return false;
-        }else{
-            return true;
-        }
+      
+        return true;
     }
-    
-    public static boolean testar2(){
-        ClientePessoaFisica pf = new ClientePessoaFisica();
-        pf.setCpf("03175333333");
-        pf.setId(0);
-        pf.setNome("a");
-
-        Pedido p = new Pedido();
-        p.setId(10);
-        p.setData(new Date());
-        p.setCliente(pf);
-
-        System.out.println(p);
-        
-        if (null == pf){
-            return false;
-        }else{
-            return true;
-        }
-    }
-    
-    
-    public static boolean testar3(){
-        ClientePessoaFisica pf = new ClientePessoaFisica();
-        pf.setCpf("03175333333");
-        pf.setId(0);
-        pf.setNome("a");
-
-        Pedido p = new Pedido();
-        p.setId(10);
-        p.setData(new Date());
-        p.setCliente(pf);
-
-        System.out.println(p);
-        
-        if (null == pf){
-            return false;
-        }else{
-            return true;
-        }
-    }
-    
 }
