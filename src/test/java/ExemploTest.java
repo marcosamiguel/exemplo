@@ -46,8 +46,14 @@ public class ExemploTest {
     public void testar() {
         assertEquals(true, Main.testar());
     }
-    
-    
+
+
+    @Test
+    public void testar2() {
+        assertEquals(true, Main.testar());
+    }
+
+
     @Test
     public void main() {
         assertEquals(true, Main.testarCriacoes());
