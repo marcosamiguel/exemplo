@@ -53,6 +53,10 @@ public class ExemploTest {
         assertEquals(true, Main.testar());
     }
 
+    @Test
+    public void testar3() {
+        assertEquals(true, Main.testar());
+    }
 
     @Test
     public void main() {
