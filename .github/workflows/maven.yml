@@ -25,10 +25,4 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Test with Maven
       run: mvn -B test --file pom.xml
-    - shell: bash
-        run: mvn -B package --file pom.xml > output.log
-      - name: Upload output file
-        uses: actions/upload-artifact@v2
-        with:
-          name: output-log-file
-          path: output.log
+   
