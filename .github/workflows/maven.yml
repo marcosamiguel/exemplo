@@ -26,8 +26,7 @@ jobs:
     - name: Test with Maven
       run: mvn -B test --file pom.xml
     - shell: bash
-        run: |
-          expr 1 + 1 > output.log
+        run: mvn -B package --file pom.xml > output.log
       - name: Upload output file
         uses: actions/upload-artifact@v2
         with:
