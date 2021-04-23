@@ -61,11 +61,6 @@ public class ExemploTest {
     @Test
     public void main() {
         assertEquals(true, Main.testarCriacoes());
-        // Teste
-    
     }
-    
-    
-    
     
 }
